@@ -6,6 +6,18 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		9277213F2E050D4300DB589A /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 9277213E2E050D4300DB589A /* FirebaseAnalytics */; };
+		927721412E050D4800DB589A /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 927721402E050D4800DB589A /* FirebaseAnalyticsOnDeviceConversion */; };
+		927721432E050D4D00DB589A /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 927721422E050D4D00DB589A /* FirebaseAuth */; };
+		927721452E050D5600DB589A /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 927721442E050D5600DB589A /* FirebaseAppCheck */; };
+		927721472E050D5E00DB589A /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 927721462E050D5E00DB589A /* FirebaseFirestore */; };
+		927721492E050D6300DB589A /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 927721482E050D6300DB589A /* FirebaseStorage */; };
+		927721B02E054E4600DB589A /* KakaoSDKCommon in Frameworks */ = {isa = PBXBuildFile; productRef = 927721AF2E054E4600DB589A /* KakaoSDKCommon */; };
+		927721B22E054E5D00DB589A /* KakaoSDKAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 927721B12E054E5D00DB589A /* KakaoSDKAuth */; };
+		927721B42E054E6800DB589A /* KakaoSDKUser in Frameworks */ = {isa = PBXBuildFile; productRef = 927721B32E054E6800DB589A /* KakaoSDKUser */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		922465042E02CAED00E65BC3 /* Lofi-Play.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lofi-Play.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -36,6 +48,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				927721452E050D5600DB589A /* FirebaseAppCheck in Frameworks */,
+				927721B02E054E4600DB589A /* KakaoSDKCommon in Frameworks */,
+				9277213F2E050D4300DB589A /* FirebaseAnalytics in Frameworks */,
+				927721432E050D4D00DB589A /* FirebaseAuth in Frameworks */,
+				927721472E050D5E00DB589A /* FirebaseFirestore in Frameworks */,
+				927721412E050D4800DB589A /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				927721492E050D6300DB589A /* FirebaseStorage in Frameworks */,
+				927721B22E054E5D00DB589A /* KakaoSDKAuth in Frameworks */,
+				927721B42E054E6800DB589A /* KakaoSDKUser in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				922465062E02CAED00E65BC3 /* Lofi-Play */,
+				9277213D2E050D4300DB589A /* Frameworks */,
 				922465052E02CAED00E65BC3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +78,13 @@
 				922465042E02CAED00E65BC3 /* Lofi-Play.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		9277213D2E050D4300DB589A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,6 +107,15 @@
 			);
 			name = "Lofi-Play";
 			packageProductDependencies = (
+				9277213E2E050D4300DB589A /* FirebaseAnalytics */,
+				927721402E050D4800DB589A /* FirebaseAnalyticsOnDeviceConversion */,
+				927721422E050D4D00DB589A /* FirebaseAuth */,
+				927721442E050D5600DB589A /* FirebaseAppCheck */,
+				927721462E050D5E00DB589A /* FirebaseFirestore */,
+				927721482E050D6300DB589A /* FirebaseStorage */,
+				927721AF2E054E4600DB589A /* KakaoSDKCommon */,
+				927721B12E054E5D00DB589A /* KakaoSDKAuth */,
+				927721B32E054E6800DB589A /* KakaoSDKUser */,
 			);
 			productName = "Lofi-Play";
 			productReference = 922465042E02CAED00E65BC3 /* Lofi-Play.app */;
@@ -107,6 +145,10 @@
 			);
 			mainGroup = 922464FB2E02CAED00E65BC3;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				927720DC2E050A2900DB589A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				927721AE2E054E2B00DB589A /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 922465052E02CAED00E65BC3 /* Products */;
 			projectDirPath = "";
@@ -145,6 +187,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RW7JL8L249;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Lofi-Play/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -172,6 +215,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RW7JL8L249;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Lofi-Play/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -321,7 +365,7 @@
 				9224651B2E02CAEE00E65BC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		922465172E02CAEE00E65BC3 /* Build configuration list for PBXNativeTarget "Lofi-Play" */ = {
 			isa = XCConfigurationList;
@@ -330,9 +374,76 @@
 				922465192E02CAEE00E65BC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		927720DC2E050A2900DB589A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.14.0;
+			};
+		};
+		927721AE2E054E2B00DB589A /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kakao/kakao-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.24.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9277213E2E050D4300DB589A /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 927720DC2E050A2900DB589A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		927721402E050D4800DB589A /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 927720DC2E050A2900DB589A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		927721422E050D4D00DB589A /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 927720DC2E050A2900DB589A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		927721442E050D5600DB589A /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 927720DC2E050A2900DB589A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		927721462E050D5E00DB589A /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 927720DC2E050A2900DB589A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		927721482E050D6300DB589A /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 927720DC2E050A2900DB589A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		927721AF2E054E4600DB589A /* KakaoSDKCommon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 927721AE2E054E2B00DB589A /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKCommon;
+		};
+		927721B12E054E5D00DB589A /* KakaoSDKAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 927721AE2E054E2B00DB589A /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKAuth;
+		};
+		927721B32E054E6800DB589A /* KakaoSDKUser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 927721AE2E054E2B00DB589A /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKUser;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 922464FC2E02CAED00E65BC3 /* Project object */;
 }
