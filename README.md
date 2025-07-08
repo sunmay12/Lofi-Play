@@ -46,27 +46,27 @@
 ### 화면별 시연 사진
 
 **1. 로그인 화면**
-![로그인화면](https://github.com/user-attachments/assets/b4ec1365-e92e-4b36-832f-02978f9554b0)
+![로그인](https://github.com/user-attachments/assets/21c6ac82-b9e3-4e2f-a958-6cd22436f899)
 
 
 **2. 홈 화면**
-![홈화면](https://github.com/user-attachments/assets/ddd789b2-1aec-43ed-a74a-13fface62018)
+![홈](https://github.com/user-attachments/assets/728e4ad7-cf4a-427e-83e3-e9ae05e8c45c)
 
 
 **3. 검색 화면**
-![검색화면](https://github.com/user-attachments/assets/6995e8c3-c2e5-4bf1-8747-047fcf8b83d9)
+![검색](https://github.com/user-attachments/assets/65d8bdec-a5f0-46fb-894d-85622fad2548)
 
 
 **4. 앨범 상세 화면**
-![앨범상세화면](https://github.com/user-attachments/assets/7160de8f-1e02-43c5-b30b-71e1f2d3195a)
+![앨범상세](https://github.com/user-attachments/assets/96e39fd7-1814-4f0c-b8c5-27ce5799a447)
 
 
 **5. 음악 재생 화면**
-![음악재생화면](https://github.com/user-attachments/assets/41ad20ee-8931-4e73-a1c5-36f251a99ca6)
+![음악재생](https://github.com/user-attachments/assets/ad8c7b94-2944-4cc5-893d-f8a15c40590f)
 
 
 **6. 보관함 화면**
-![보관함화면](https://github.com/user-attachments/assets/45870a2e-d0c4-4f70-bf14-c3b07ae74b64)
+![보관함](https://github.com/user-attachments/assets/d2dfc1ae-0ad7-44e3-8c44-a75ae5a4dd49)
 
 
 ---
