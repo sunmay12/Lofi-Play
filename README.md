@@ -8,7 +8,7 @@
 ---
 
 ## 🔨 구조도
-![Lofi-Play 구조도](https://github.com/user-attachments/assets/f2fe34b8-c99d-4c42-8de5-d06e9010c28e)
+![Lofi-Play 구조도](https://github.com/user-attachments/assets/c3f78a23-35de-4bcc-940d-d7ca357db6b5)
 
 
 ---
